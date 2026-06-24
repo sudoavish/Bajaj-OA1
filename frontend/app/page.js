@@ -12,7 +12,7 @@ export default function Home() {
       .map((x) => x.trim())
       .filter(Boolean);
 
-    const res = await fetch("https://YOUR_RENDER_URL.onrender.com/bfhl", {
+    const res = await fetch("https://bajaj-oa1-api.onrender.com/bfhl", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
